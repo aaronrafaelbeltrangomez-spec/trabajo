@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estacionamiento</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Cobro Estacionamiento</h1>
+
+        <input type="number" id="horas" placeholder="Horas utilizadas">
+        <input type="number" id="costoPorHora" placeholder="Costo por hora">
+
+        <button onclick="calcularCobro()">Calcular</button>
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.location.href='./p2.html'">Continuar</button>
+            <button onclick="window.location.href='../index.html'">Volver al Inicio</button>
+        </div>
+        <div class="resultado" id="resultado"></div>
+    </div>
+    <script src="../problemas.js/estacionamiento.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tiempo en Bicicleta</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tiempo de Viaje</h1>
+
+        <input type="number" id="distancia" placeholder="Distancia">
+        <input type="number" id="velocidad" placeholder="Velocidad">
+
+        <button onclick="calcularTiempo()">Calcular Tiempo</button>
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.location.href='./p2.html'">Continuar</button>
+            <button onclick="window.location.href='../index.html'">Volver al Inicio</button>
+
+            <div id="resultado" class="resultado"></div>
+
+
+        </div>
+        <script src="../problemas.js/bicicleta.js"></script>
+</body>
+
+</html>

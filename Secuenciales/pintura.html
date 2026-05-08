@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Presupuesto Pintura</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Presupuesto Pintura</h1>
+
+        <input type="number" id="metrosCuadrados" placeholder="Metros cuadrados">
+        <input type="number" id="costoPorM2" placeholder="Costo por m²">
+
+        <button onclick="generarPresupuesto()">Generar</button>
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.location.href='./p2.html'">Continuar</button>
+            <button onclick="window.location.href='../index.html'">Volver al Inicio</button>
+        </div>
+        <div class="resultado" id="resultado"></div>
+    </div>
+    <script src="../problemas.js/pintura.js"></script>
+</body>
+
+</html>
